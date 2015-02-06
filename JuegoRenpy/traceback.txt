@@ -1,0 +1,23 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 395, in script
+    if Puntos_Juego = 25:
+SyntaxError: invalid syntax (game/script.rpy, line 395)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 395, in script
+    if Puntos_Juego = 25:
+  File "C:\Users\edgar_000\Desktop\renpy-6.18.3-sdk\renpy\ast.py", line 1587, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\edgar_000\Desktop\renpy-6.18.3-sdk\renpy\python.py", line 1416, in py_eval
+    return eval(py_compile(source, 'eval'), globals, locals)
+  File "C:\Users\edgar_000\Desktop\renpy-6.18.3-sdk\renpy\python.py", line 477, in py_compile
+    raise e
+SyntaxError: invalid syntax (game/script.rpy, line 395)
+
+Windows-post2008Server-6.2.9200
+Ren'Py 6.18.3.761
+Rimas 0.0

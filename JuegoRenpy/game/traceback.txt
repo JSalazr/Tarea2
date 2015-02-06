@@ -1,0 +1,17 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+Before loading the script.
+WindowsError: WindowsError(267, 'El nombre del directorio no es v\xe1lido')
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\Juan Carranza\Documents\Programacion 1\LabProgra1\renpy-6.18.3-sdk\renpy\bootstrap.py", line 289, in bootstrap
+    renpy.main.main()
+  File "C:\Users\Juan Carranza\Documents\Programacion 1\LabProgra1\renpy-6.18.3-sdk\renpy\main.py", line 203, in main
+    for fn in os.listdir(dir):
+WindowsError: WindowsError(267, 'El nombre del directorio no es v\xe1lido')
+
+Windows-post2008Server-6.2.9200
+Ren'Py 6.18.3.761
+ 
